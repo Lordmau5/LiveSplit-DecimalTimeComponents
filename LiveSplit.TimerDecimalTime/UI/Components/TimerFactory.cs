@@ -13,12 +13,12 @@ namespace LiveSplit.UI.Components
 
         public IComponent Create(LiveSplitState state) => new Timer();
 
-        public string UpdateName => ComponentName;
+        public string UpdateName => this.ComponentName;
 
-        public string XMLURL => "http://livesplit.org/update/Components/update.LiveSplit.Timer.xml";
+        public string XMLURL => "";
 
-        public string UpdateURL => "http://livesplit.org/update/";
+        public string UpdateURL => "";
 
-        public Version Version => Version.Parse("1.8.0");
+        public Version Version => Version.Parse("1.8.1");
     }
 }
